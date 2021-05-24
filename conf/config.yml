@@ -1,0 +1,11 @@
+mock:
+  - method: GET
+    path: test
+    response: '{
+                "foo":"bar"
+    }'
+  - method: POST
+    path: test2
+    response: '{
+                "foo":"bar2"
+    }'
